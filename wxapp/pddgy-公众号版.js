@@ -29,13 +29,13 @@ app_id=33 / xcx_version / activity type 201811 均为该小程序固定应用常
 */
 
 const { Env } = require("../tools/env.js");
-const $ = new Env("拼多多果园签到");
+const $ = new Env("拼多多果园公众号版");
 const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
 const WeChatServer = require("./wcs.js");
 
-const ckName = "pddgy";
+const ckName = "pddgy-gzh";
 const MINI_APP_ID = "wx839691cce7c102bb";
 const XCX_VERSION = "v8.6.21";
 const PDD_APP_ID = 33;
