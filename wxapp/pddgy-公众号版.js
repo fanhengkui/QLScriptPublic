@@ -35,7 +35,7 @@ const fs = require("fs");
 const path = require("path");
 const WeChatServer = require("./wcs.js");
 
-const ckName = "pddgy-gzh";
+const ckName = "pddgy_gzh";
 const MINI_APP_ID = "wx839691cce7c102bb";
 const XCX_VERSION = "v8.6.21";
 const PDD_APP_ID = 33;
